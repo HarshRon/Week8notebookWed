@@ -19,6 +19,14 @@ public class Main {
         else {
             System.out.println("These are not equal");
         }//ends the else
+        StringBuilder sb = new StringBuilder();
+        System.out.println(sb); // blank before append
+        sb.append("This is lit");
+        System.out.println(sb);
+        sb.reverse();
+        String reservedResult = sb.toString();
+        System.out.println(reservedResult);
+        System.out.println(sb);
 
     }//ends main method/driver
 }//ends Main class
